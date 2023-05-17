@@ -1,5 +1,10 @@
 # 如何使用 sqlmap
 
+### 檢查 sqlmap 有沒有安裝
+```sh
+sqlmap --version
+```
+
 ### 指定目標
 ```sh
 sqlmap -u "https://www.taipower.com.tw/TC/page.aspx?mid=44"
