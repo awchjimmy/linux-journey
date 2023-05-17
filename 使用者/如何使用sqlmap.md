@@ -5,7 +5,7 @@
 sqlmap --version
 ```
 
-### 指定目標
+### 指定目標，後面加 -u
 ```sh
 sqlmap -u "https://www.taipower.com.tw/TC/page.aspx?mid=44"
 ```
