@@ -7,7 +7,7 @@
 
 ### 本機：建立 ssh tunnel
 ```
-ssh -D 2323 awchjimmy@192.168.0.127
+ssh -D 2323 awchjimmy@170.187.227.8
 ```
 
 ### 本機：Chrome 啟動參數
