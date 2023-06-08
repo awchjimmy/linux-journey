@@ -10,6 +10,11 @@ ffuf 只適合做極簡單的一個動作，超過一個動作時，請自行寫
 用不適合的工具，所花費的時間划不來！
 
 ### 使用 ffuf
-```sh
+```
 ffuf -w "./wordlist.txt" -u "https://example.com/FUZZ"
+```
+
+### 存檔到特定資料夾
+```
+ffuf -w "./wordlist.txt" -u "https://example.com/FUZZ" -od out/
 ```
