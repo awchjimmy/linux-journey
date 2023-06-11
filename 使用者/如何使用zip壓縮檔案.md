@@ -5,7 +5,7 @@
 zip -r <filename.zip> <folder>
 ```
 
-### 使用 unzip 姐壓縮
+### 使用 unzip 解壓縮
 ```
 unzip <filename.zip>
 ```
