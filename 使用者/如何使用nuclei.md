@@ -9,3 +9,8 @@ nuclei -tl
 ```sh
 nuclei -l "urls.txt" -t "http/default-logins/geoserver/geoserver-default-login.yaml"
 ```
+
+### 範例：從 header 看 IIS 版本
+```sh
+nuclei -l "urls.txt" -t "http/technologies/microsoft/microsoft-iis-version.yaml"
+```
