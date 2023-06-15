@@ -19,3 +19,8 @@ nuclei -l "urls.txt" -t "http/technologies/microsoft/microsoft-iis-version.yaml"
 ```sh
 nuclei -l "urls.txt" -t "http/default-logins/geoserver/geoserver-default-login.yaml"
 ```
+
+### 範例：找 Swagger API 文件
+```sh
+nuclei -l "urls.txt" -t "http/exposures/apis/swagger-api.yaml"
+```
