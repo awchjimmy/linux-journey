@@ -14,3 +14,8 @@ nuclei -l "urls.txt" -t "http/default-logins/geoserver/geoserver-default-login.y
 ```sh
 nuclei -l "urls.txt" -t "http/technologies/microsoft/microsoft-iis-version.yaml"
 ```
+
+### 範例：找 geoserver 預設帳號密碼
+```sh
+nuclei -l "urls.txt" -t "http/default-logins/geoserver/geoserver-default-login.yaml"
+```
