@@ -24,3 +24,8 @@ nuclei -l "urls.txt" -t "http/default-logins/geoserver/geoserver-default-login.y
 ```sh
 nuclei -l "urls.txt" -t "http/exposures/apis/swagger-api.yaml"
 ```
+
+### 範例：找 遠端桌面連線
+```sh
+nuclei -u 211.75.103.196 -t network/detection/rdp-detect.yaml
+```
