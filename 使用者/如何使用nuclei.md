@@ -29,3 +29,8 @@ nuclei -l "urls.txt" -t "http/exposures/apis/swagger-api.yaml"
 ```sh
 nuclei -u 211.75.103.196 -t network/detection/rdp-detect.yaml
 ```
+
+### 範例：找 wordpress 網站
+```sh
+nuclei -l "urls.txt" -t http/vulnerabilities/wordpress/wp-license-file.yaml
+```
