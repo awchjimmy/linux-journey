@@ -23,3 +23,8 @@ ffuf -w "./wordlist.txt" -u "https://example.com/FUZZ" -od out/
 ```
 ffuf -w subdomains.txt -u https://FUZZ/.well-known/assetlinks.json -mr "package_name"
 ```
+
+### 檢查網站是否有 robots.txt
+```
+ffuf -w subdomains.txt -u https://FUZZ/robots.txt -mr "[Dd]isallow"
+```
