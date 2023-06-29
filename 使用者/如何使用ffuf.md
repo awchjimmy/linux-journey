@@ -21,5 +21,5 @@ ffuf -w "./wordlist.txt" -u "https://example.com/FUZZ" -od out/
 
 ### 檢查網站是否有 android app 搭配
 ```
-ffuf -w subdomains.txt -u "https://FFUF/.well-known/assetlinks.json"
+ffuf -w subdomains.txt -u https://FUZZ/.well-known/assetlinks.json -mr "package_name"
 ```
