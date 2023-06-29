@@ -28,3 +28,8 @@ ffuf -w subdomains.txt -u https://FUZZ/.well-known/assetlinks.json -mr "package_
 ```
 ffuf -w subdomains.txt -u https://FUZZ/robots.txt -mr "[Dd]isallow"
 ```
+
+### 檢查網站是否有 geoserver
+```
+ffuf -w subdomains.txt -u https://FUZZ/geoserver/web -r -mr "GeoServer"
+```
