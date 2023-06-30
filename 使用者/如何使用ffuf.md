@@ -33,3 +33,8 @@ ffuf -w subdomains.txt -u https://FUZZ/robots.txt -mr "[Dd]isallow"
 ```
 ffuf -w subdomains.txt -u https://FUZZ/geoserver/web -r -mr "GeoServer"
 ```
+
+### 檢查網站是否有 swagger api
+```
+ffuf -w subdomains.txt -u https://FUZZ/swagger/ui/index -r -mr "[Ss]wagger" -fc 404
+```
